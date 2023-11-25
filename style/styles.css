@@ -2,6 +2,8 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+/* nav bar */
+
 header nav {
     display: flex;
     align-items: center;
@@ -9,7 +11,7 @@ header nav {
     justify-content: space-between;
 }
 
-header ul{
+header ul {
     display: flex;
 }
 
@@ -21,16 +23,55 @@ header ul>li {
     margin-right: 35px;
 }
 
-header h3 {
-    text-align: center;
+header nav>h3 {
+    /* text-align: center; */
     font-size: 45px;
     font-weight: 700;
 }
 
-.first-li-icon{
+.first-li-icon {
     border: none #0B02231A;
     background-color: #0B02231A;
     padding: 15px 25px;
     border-radius: 10px;
     margin-top: -15px;
+}
+
+
+/* banner section */
+
+.banner {
+    /* display: flex; */
+}
+
+.banner-text {
+    /* background-color: rgba(241, 68, 174, 0.03); */
+}
+
+.banner h3 {
+    color: #0B0223;
+    /* text-align: center; */
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.banner h1 {
+    /* text-align: center; */
+    font-size: 95px;
+    font-weight: 800;
+    margin-top: -5px;
+
+    /* এই নিচের পার্টটা বুঝি নাই।  */
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner p {
+    color: #534C64;
+    /* text-align: center; */
+    font-size: 20px;
+    font-weight: 500;
 }
