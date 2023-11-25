@@ -26,3 +26,11 @@ header h3 {
     font-size: 45px;
     font-weight: 700;
 }
+
+.first-li-icon{
+    border: none #0B02231A;
+    background-color: #0B02231A;
+    padding: 15px 25px;
+    border-radius: 10px;
+    margin-top: -15px;
+}
