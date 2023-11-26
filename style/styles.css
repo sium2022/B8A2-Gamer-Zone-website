@@ -83,10 +83,23 @@ header nav>h3 {
     font-weight: 500;
 }
 
-.banner-btn{
-
+.banner-btn {
+    justify-content: space-around;
 }
 
-.banner-img{
-    max-width: 80%;
+.btn-primary {
+    border-radius: 50px;
+    border: none;
+    background-color: #ff42a5;
+    padding: 20px 40px;
+
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
 }
+
+#btn-pri-diff {
+    background-color: #4ec5f7;
+}
+
+.banner-img {}
