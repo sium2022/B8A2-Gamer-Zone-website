@@ -103,3 +103,45 @@ header nav>h3 {
 }
 
 .banner-img {}
+
+/* -----responsive section for smaller device----- */
+@media screen and (max-width:576px) {
+    header nav {
+        flex-direction: column;
+        /* align-items: center; */
+        padding: 10px 10px;
+        margin-top: -30px;
+        margin-bottom: -30px;
+        justify-content: space-between;
+    }
+
+    header  ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .first-li-icon {
+        border: none #0B02231A;
+        background-color: #0B02231A;
+        padding: 15px 25px;
+        border-radius: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner-text-only{
+        
+        padding: none;
+    }
+}
+
+
+ 
+
+
+/* -----responsive section for smaller device----- */
