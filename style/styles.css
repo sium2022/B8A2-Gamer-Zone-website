@@ -102,6 +102,29 @@ header nav>h3 {
     background-color: #4ec5f7;
 }
 
+
+
+
+----------/* body started */----------
+.we-are-gamer{
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+
+.wag-img{
+    
+}
+.wag-text-btn-p{
+
+}
+
+
+
+
+
+
+
+
 /* -----responsive section for smaller device----- */
 @media screen and (max-width:576px) {
     header nav {
