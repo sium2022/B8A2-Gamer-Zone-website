@@ -195,7 +195,56 @@ header nav>h3 {
     gap: 10px;
 }
 
+/* Play Instantly, No Downloads No Installs. */
+.pindni {
+    display: flex;
+    gap: 100px;
+}
 
+.pindni-h3 {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.pindni-p {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pindni-img-2{
+    position: relative;
+    bottom: 300px;
+    right: 150px;
+}
+
+/* Play Games Online Anywhere, Anytime! */
+
+.pgoa {
+    display: flex;
+    gap: 100px;
+}
+
+.pgoa-h3 {
+    text-align: left;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.pgoa-p {
+    color: #534C64;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.pgoa-img-2{
+    position: relative;
+    bottom: 230px;
+    left: 530px;
+}
 
 
 
@@ -225,6 +274,8 @@ header nav>h3 {
         margin-bottom: 5px;
     }
 
+
+
     .banner {
         flex-direction: column-reverse;
     }
@@ -237,9 +288,57 @@ header nav>h3 {
         width: 100%;
     }
 
+
     .ogfv-cards {
         flex-direction: column;
         align-items: center;
+    }
+
+
+
+    .wag {
+        align-items: center;
+    }
+
+    .wag-text-btn-p {
+        text-align: center;
+    }
+
+
+
+    .pindni {
+        flex-direction: column-reverse;
+    }
+    
+    .pindni-h3 {
+        text-align: center;
+    }
+    
+    .pindni-p {
+        text-align: center;
+    }
+
+    .pindni-imgs{
+        width: auto;
+    }
+
+
+
+
+    .pgoa {
+        flex-direction: column;
+    }
+    
+    .pgoa-h3 {
+        text-align: center;
+    }
+    
+    .pgoa-p {
+        text-align: center;
+    }
+
+    .pgoa-imgs{
+        width: auto;
     }
 }
 
