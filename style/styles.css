@@ -214,7 +214,7 @@ header nav>h3 {
     font-weight: 400;
 }
 
-.pindni-img-2{
+.pindni-img-2 {
     position: relative;
     bottom: 300px;
     right: 150px;
@@ -240,19 +240,91 @@ header nav>h3 {
     font-weight: 400;
 }
 
-.pgoa-img-2{
+.pgoa-img-2 {
     position: relative;
     bottom: 230px;
     left: 530px;
 }
 
---------------/* career section */--------------
-.career{
+--------------
 
+/* career section */
+-------------- .career {
     display: flex;
     background-color: #F948B2;
     width: 100%;
     height: 800px;
+}
+
+.career-h {
+    color: mediumaquamarine;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.career-p {
+    color: mediumaquamarine;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.career-li {
+    display: flex;
+    gap: 100px;
+    line-height: 40px;
+}
+
+.li-1 {
+    color: mediumaquamarine;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.li-2 {
+    color: mediumaquamarine;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.career-btn {
+    padding: 20px 40px;
+
+    border: none;
+    border-radius: 50px;
+    background: rgb(10, 247, 168);
+
+    margin-top: 50px;
+    color: #FF42A5;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+/* ---------------------game type------------------ */
+.game-type {
+    display: flex;
+    margin: 120px auto;
+}
+
+.game-type-box {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border-radius: 50px;
+    background: #FFF;
+    width: 243px;
+    height: 80px;
+
+
+}
+
+.type-p {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 
@@ -318,16 +390,16 @@ header nav>h3 {
     .pindni {
         flex-direction: column;
     }
-    
+
     .pindni-h3 {
         text-align: center;
     }
-    
+
     .pindni-p {
         text-align: center;
     }
 
-    .pindni-imgs{
+    .pindni-imgs {
         width: auto;
     }
 
@@ -337,16 +409,16 @@ header nav>h3 {
     .pgoa {
         flex-direction: column-reverse;
     }
-    
+
     .pgoa-h3 {
         text-align: center;
     }
-    
+
     .pgoa-p {
         text-align: center;
     }
 
-    .pgoa-imgs{
+    .pgoa-imgs {
         width: 40%;
     }
 }
