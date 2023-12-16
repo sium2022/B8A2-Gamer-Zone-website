@@ -307,7 +307,7 @@ header nav>h3 {
 
 
     .pindni {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
     
     .pindni-h3 {
@@ -326,7 +326,7 @@ header nav>h3 {
 
 
     .pgoa {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     
     .pgoa-h3 {
