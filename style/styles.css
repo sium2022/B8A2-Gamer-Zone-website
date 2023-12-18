@@ -319,9 +319,10 @@ header nav>h3 {
     align-items: center;
     gap: 16px;
     border-radius: 50px;
-    background: #FFF;
+    background: wheat;
     width: 243px;
     height: 80px;
+    padding: 10px;
 
 
 }
@@ -330,10 +331,12 @@ header nav>h3 {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
+    gap: 15px;
 }
 .game-type-li-2{
     display: flex;
     justify-content: center;
+    gap: 15px;
 }
 
 .type-p {
