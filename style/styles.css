@@ -1,6 +1,5 @@
 body {
     font-family: 'Work Sans', sans-serif;
-    margin: auto 20px;
 }
 
 /* nav bar */
@@ -105,10 +104,12 @@ header nav>h3 {
 
 
 
-----------
-/* body started */
-----------
-/* We are gamers section */
+/* --------------body started--------------- */
+
+
+
+
+/* ---------------We are gamers section-------------- */
 
 .wag {
     display: flex;
@@ -167,7 +168,7 @@ header nav>h3 {
 }
 
 
-/* Online games funny videos */
+/* -------------Online games funny videos------------- */
 .ogfv {
     margin: 120px auto;
 }
@@ -179,7 +180,7 @@ header nav>h3 {
     font-size: 48px;
     font-weight: 700;
 
-    /* color design for this h3 in span */
+    /* ----------color design for this h3 in span-------- */
 }
 
 .ogfv-p {
@@ -195,7 +196,7 @@ header nav>h3 {
     gap: 10px;
 }
 
-/* Play Instantly, No Downloads No Installs. */
+/* ------Play Instantly, No Downloads No Installs.------ */
 .pindni {
     display: flex;
     gap: 100px;
@@ -220,7 +221,7 @@ header nav>h3 {
     right: 150px;
 }
 
-/* Play Games Online Anywhere, Anytime! */
+/*-------- Play Games Online Anywhere, Anytime! ----------*/
 
 .pgoa {
     display: flex;
@@ -246,24 +247,25 @@ header nav>h3 {
     left: 530px;
 }
 
---------------
+/* -----------career section---------------- */ 
 
-/* career section */
--------------- .career {
+
+
+.career {
     display: flex;
     background-color: #F948B2;
-    width: 100%;
-    height: 800px;
+    padding: 10px 20px;
+    align-items: center;
 }
 
 .career-h {
-    color: mediumaquamarine;
+    color: white;
     font-size: 48px;
     font-weight: 700;
 }
 
 .career-p {
-    color: mediumaquamarine;
+    color: white;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -276,13 +278,13 @@ header nav>h3 {
 }
 
 .li-1 {
-    color: mediumaquamarine;
+    color: white;
     font-size: 20px;
     font-weight: 600;
 }
 
 .li-2 {
-    color: mediumaquamarine;
+    color: white;
     font-size: 20px;
     font-weight: 600;
 }
@@ -292,7 +294,7 @@ header nav>h3 {
 
     border: none;
     border-radius: 50px;
-    background: rgb(10, 247, 168);
+    background: white;
 
     margin-top: 50px;
     color: #FF42A5;
@@ -301,11 +303,14 @@ header nav>h3 {
     text-transform: uppercase;
 }
 
+.career-img{
+    position: relative;
+}
+
 
 
 /* ---------------------game type------------------ */
 .game-type {
-    display: flex;
     margin: 120px auto;
 }
 
@@ -319,6 +324,16 @@ header nav>h3 {
     height: 80px;
 
 
+}
+
+.game-type-li-1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.game-type-li-2{
+    display: flex;
+    justify-content: center;
 }
 
 .type-p {
