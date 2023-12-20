@@ -247,7 +247,7 @@ header nav>h3 {
     left: 530px;
 }
 
-/* -----------career section---------------- */ 
+/* -----------career section---------------- */
 
 
 
@@ -303,7 +303,7 @@ header nav>h3 {
     text-transform: uppercase;
 }
 
-.career-img{
+.career-img {
     position: relative;
 }
 
@@ -327,13 +327,14 @@ header nav>h3 {
 
 }
 
-.game-type-li-1{
+.game-type-li-1 {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
     gap: 15px;
 }
-.game-type-li-2{
+
+.game-type-li-2 {
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -343,6 +344,52 @@ header nav>h3 {
     color: #0B0223;
     font-size: 20px;
     font-weight: 600;
+}
+
+
+/* ----------------footer----------------- */
+.footer {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    background-color: #0B0223;
+}
+
+.footer-h3 {
+    padding: 10px;
+}
+
+.footer-p {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    display: inline-flex;
+    gap: 60px;
+    padding: 10px;
+}
+
+.footer-icon{
+    gap: 40px;
+}
+
+.footer-li {
+    display: inline-flex;
+    gap: 60px;
+    padding: 10px;
+
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.footer-last-p{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+
+    padding-bottom: 80px;
 }
 
 
